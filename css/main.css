@@ -17,11 +17,14 @@ html {
 }
 
 #left-eye {
-	animation: slide .5s linear alternate infinite;
-	transform-origin: 156px 82px;
+	animation: slide 1.5s linear alternate infinite;
+}
+
+#right-eye {
+	animation: slide 1.5s linear alternate infinite;
 }
 
 @keyframes slide{
 	0% { transform: translate(0,0); }
-	100% { transform: translate(12px,0); }
+	100% { transform: translate(10px,0); }
 }
